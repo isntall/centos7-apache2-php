@@ -1,4 +1,4 @@
-FROM isntall/centos7-base:lastest
+FROM isntall/centos7-base:latest
 MAINTAINER Archie Brentano <isntall.us@gmail.com>
 RUN yum install -y \
   httpd \
