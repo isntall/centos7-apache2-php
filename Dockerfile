@@ -1,6 +1,6 @@
 FROM isntall/centos7-base:latest
 MAINTAINER Archie Brentano <isntall.us@gmail.com>
-RUN yum install -y \
+RUN yum install --nogpg -y \
   httpd \
   php \
   php-cli \
